@@ -1,23 +1,51 @@
-# Next.js + Jest
+## Requirements
 
-This example shows how to configure Jest to work with Next.js.
+| Name                          | Version  |
+| ----------------------------- |----------|
+| [Node.js](https://nodejs.org) | v16.4.2+ |
+| NPM                           | v8.5.x   |
 
-This includes Next.js' built-in support for Global CSS, CSS Modules, and TypeScript!
 
-## How to Use
+## How to run
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+### Next, create a `.env` file in the root of the project and add the following:
+|name|value|required|
+|----|-----|--------|
+### Install the dependencies:
+```bash
+npm istall
+#or 
+yarn install
+```
+### Run the development server:
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
+npm run dev
 # or
-yarn create next-app --example with-jest with-jest-app
+yarn dev
 ```
-
-## Run Jest Tests
-
+#### Development server will run on [http://localhost:3000](http://localhost:3000)
+## How to build
 ```bash
-npm test
+npm run build
+#or
+yarn build
 ```
+## How to run srorybook
+```bash
+npm run storybook
+#or
+yarn storybook
+```
+
+## How to run tests
+```bash
+npm run test
+#or
+yarn test
+```
+## Libs/API Documentation
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+

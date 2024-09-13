@@ -1,4 +1,4 @@
 /build
 /node_modules
-/.next
-__mocks__
+**/coverage/**
+!.storybook
